@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+  - datamodule: gtzan
+  - model: cnn
+  - logger: mlflow
+
+trainer:
+  max_epochs: 3
+  accelerator: auto
+  devices: auto
+  default_root_dir: outputs

@@ -1,0 +1,13 @@
+datamodule:
+  data_dir: data/dataset
+  batch_size: 32
+  num_workers: 4
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+  random_seed: 42
+  sample_rate: 22050
+  n_fft: 2048
+  hop_length: 512
+  n_mels: 128
+  clip_duration: 30
